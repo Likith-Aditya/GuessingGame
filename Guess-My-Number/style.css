@@ -44,7 +44,13 @@ main {
   width: 52rem;
   font-size: 2rem;
 }
-
+footer{
+  padding: 6px 40px 6px 40px;
+  background: #333;
+  color:#eee;
+  font-size: 13px;
+  text-decoration: right;
+}
 /* ELEMENTS STYLE */
 h1 {
   font-size: 4rem;
@@ -116,4 +122,9 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+
+a{
+  text-decoration: none;
+  color: #60b347;
 }
