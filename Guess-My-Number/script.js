@@ -18,6 +18,11 @@ let highscore = 0;
 const displayMessage = function (message) {
   document.querySelector('.message').textContent = message;
 };
+document.addEventListener('keydown', function (e) {
+  if (e.key == 'Enter') {
+    document.querySelector('.check').click();
+  }
+});
 
 document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
